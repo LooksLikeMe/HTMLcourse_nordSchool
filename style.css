@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2 {
+    font-size: xx-large;
+}
+h3 {
+    margin-bottom: 7px;
+}
+p {
+    margin-top: 0;
+}
+.main {
+    background: #e1e1e1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio {
+    background:white;
+    width: 90%;
+    min-height: 90vh;
+    display: flex;
+    border-radius: 60px;
+    box-shadow: -7px 4px 20px rgba(0, 0, 0, 0.253);
+}
+.portfolio-left {
+    background: orange;
+    color: white;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 60px 0 0 60px;
+}
+.portfolio-right {
+    background: white;
+    width: 60%;
+    border-radius: 0 60px 60px 0;
+    padding: 40px;
+}
+.about-item {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.322);
+}
+.about-item-none {
+    display: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.322);
+}
+.user-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+.portfolio_rigth_footer {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_button {
+    background: rgb(60, 255, 0);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
