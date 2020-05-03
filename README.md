@@ -1,1 +1,7 @@
-# Info_about_me
+# InfoAboutMe
+
+Html, 
+Css,
+Js (jquery),
+'Study',
+Info page.
